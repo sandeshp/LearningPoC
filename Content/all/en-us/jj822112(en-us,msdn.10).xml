@@ -1,0 +1,32 @@
+<div xmlns="http://www.w3.org/1999/xhtml">
+  <div class="topic" xmlns="http://www.w3.org/1999/xhtml" xmlns:mtps="http://msdn2.microsoft.com/mtps" xmlns:msxsl="urn:schemas-microsoft-com:xslt" xmlns:cs="http://msdn.microsoft.com/en-us/">
+    
+    <!--Published via DxPublisher.-->
+    <div id="mainSection">
+      <div id="mainBody">
+        <p>Upload a management certificate for secure API access to your cloud resources. You can upload a management certificate from either the User Account <strong>Quickstart</strong> or the <strong>Management Certificates</strong> pages.</p>
+        <p>The Management Certificate is used as an authentication mechanism at the API REST layer to allow a subscriber to manage their cloud services and resources. The same Management Certificate can be used with 1 or more subscriptions.</p>
+        <p>There are several ways to create management certificates, if you have Visual Studio installed you can create a certificate using makecert by following these steps:</p>
+        <ol class="ordered">
+          <li>
+						Open the Visual Studio Command Prompt window as an administrator.<br /><br /></li>
+          <li>
+						Change the directory to the location where you want to save the certificate file.<br /><br /></li>
+          <li>
+						Type the following command:<br /><br />
+						makecert -sky exchange -r -n "CN=&lt;CertificateName&gt;" -pe -a sha1 -len 2048 -ss My "&lt;CertificateName&gt;.cer"<br /><br />
+						Where &lt;CertificateName&gt; is the name that you want to use for the certificate. It must have a .cer extension.<br /><br /></li>
+        </ol>
+        <p>After the management certificate has been created, upload the certificate from either the User Account <strong>Quickstart</strong> or <strong>Management Certificates</strong> pages.</p>
+        <div id="sectionSection0" class="section">
+          <p>
+            <!---->
+          </p>
+        </div>
+      </div>
+      <p>
+        <!---->
+      </p>
+    </div>
+  </div>
+</div>

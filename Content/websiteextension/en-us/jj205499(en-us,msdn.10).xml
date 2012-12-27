@@ -1,0 +1,27 @@
+<div xmlns="http://www.w3.org/1999/xhtml">
+  <div class="topic" xmlns="http://www.w3.org/1999/xhtml" xmlns:mtps="http://msdn2.microsoft.com/mtps" xmlns:msxsl="urn:schemas-microsoft-com:xslt" xmlns:cs="http://msdn.microsoft.com/en-us/">
+    
+    <!--Published via DxPublisher.-->
+    <div id="mainSection">
+      <div id="mainBody">
+        <p>Modify scale options to give a web site additional load capacity and/or fault tolerance.</p>
+        <div id="sectionSection0" class="section">
+          <p>
+            <strong>Scale</strong> management page options affect load capacity or fault tolerance for a web site as follows:</p>
+          <ul>
+            <li class="unordered">
+              <strong>Web Site Mode</strong> – <strong>Shared</strong> mode by default. A web site running in <strong>Shared</strong> mode is co-located with other web sites running in shared mode. You can decide which sites you want to run in Free <strong>Intro Shared</strong> mode and which sites you want to run in <strong>Basic Shared</strong> mode. <strong>Intro Shared</strong> mode has strict quotas and <strong>Basic Shared</strong> mode has more relaxed quotas. The maximum number of sites you can run in <strong>Intro Shared</strong> mode may vary with your plan.<br /><br />
+							When <strong>Web Site Mode</strong> is changed from <strong>Shared</strong> to <strong>Reserved</strong> you can scale up the web site by increasing the value of the web site’s <strong>Reserved Instance Size</strong>. The <strong>Reserved</strong> mode applies to all your sites and makes them run on dedicated compute instances. The default value for <strong>Reserved Instance Size</strong> is <strong>Small</strong> but can be increased to <strong>Medium</strong> or <strong>Large</strong> to provide scale up.<br /><br /></li>
+            <li class="unordered">
+              <strong>Shared Instance Count</strong> - provides fault tolerance and improved performance through scale out by allocating the specified number of shared compute instances to the web site.<br /><br /></li>
+            <li class="unordered">
+              <strong>Reserved Instance Count</strong> - provides fault tolerance and improved performance through scale out by dedicating the specified number of compute instances to the web site.<br /><br /></li>
+          </ul>
+        </div>
+      </div>
+      <p>
+        <!---->
+      </p>
+    </div>
+  </div>
+</div>

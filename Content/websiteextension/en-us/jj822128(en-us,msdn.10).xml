@@ -1,0 +1,29 @@
+<div xmlns="http://www.w3.org/1999/xhtml">
+  <div class="topic" xmlns="http://www.w3.org/1999/xhtml" xmlns:mtps="http://msdn2.microsoft.com/mtps" xmlns:msxsl="urn:schemas-microsoft-com:xslt" xmlns:cs="http://msdn.microsoft.com/en-us/">
+    
+    <!--Published via DxPublisher.-->
+    <div id="mainSection">
+      <div id="mainBody">
+        <p>Link a resource to a web site by clicking the <strong>Link</strong> icon at the bottom of the web site <strong>Linked Resources</strong> page to display the <strong>Link Resource</strong> dialog box. From the Link Resource dialog box you can choose the option to either <strong>Create a new resource</strong> or <strong>Link an existing resource</strong>. The <strong>Link an existing resource option</strong> will be greyed out and unavailable if there are not already resources associated with your subscription that can be linked to.</p>
+        <ul>
+          <li class="unordered">
+						If there are not already resources associated with your subscription that can be linked to the web site click the option to <strong>Create a new resource</strong> and you will be presented with a list of resources that can be created for use as linked resources. In this case, click the type of resource that you would like to create (for example SQL Database) and complete the steps in the <strong>Link New Database</strong> wizard to create the resource and automatically link the resource to the web site. When creating a resource you must specify the necessary information to create the resource, such as a friendly name for the resource and appropriate credentials to connect to a hosting SQL Server / hosting MySQL Server.<br /><br />
+						As soon as the new resource is created it will be automatically linked to the web site.<br /><br /></li>
+          <li class="unordered">
+						If there already exist resources associated with your subscription that you would like to link to the web site click <strong>Link an existing resource</strong>. Then select the existing resource, provide your account password and click the checkmark at the bottom right of the dialog box to confirm that the resource should be linked to the web site.<br /><br /></li>
+        </ul>
+        <p>
+          <!---->
+        </p>
+        <div id="sectionSection0" class="section">
+          <p>
+            <!---->
+          </p>
+        </div>
+      </div>
+      <p>
+        <!---->
+      </p>
+    </div>
+  </div>
+</div>

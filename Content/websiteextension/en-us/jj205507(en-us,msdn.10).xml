@@ -1,0 +1,89 @@
+<div xmlns="http://www.w3.org/1999/xhtml">
+  <div class="topic" xmlns="http://www.w3.org/1999/xhtml" xmlns:mtps="http://msdn2.microsoft.com/mtps" xmlns:msxsl="urn:schemas-microsoft-com:xslt" xmlns:cs="http://msdn.microsoft.com/en-us/">
+    
+    <!--Published via DxPublisher.-->
+    <div id="mainSection">
+      <div id="mainBody">
+        <p>If you use Git for source code control, you can publish your app directly from a local Git repository to a web site. Git is a free, open-source, distributed version control system that handles small to very large projects. To use Git with your web site, you must first set up Git publishing for the web site. Use <strong>Set up Git publishing</strong> on <strong>Quick Start</strong> or the dashboard. After you set up Git publishing, each Git push initiates a new deployment. You'll manage your Git deployments on the <strong>Deployments</strong> page. </p>
+        <h4 class="subHeading">Set up Git publishing</h4>
+        <div class="subSection">
+          <ol class="ordered">
+            <li>
+              <p>Create a web site in Web Sites. (<strong> New</strong> - <strong>Web Site</strong>)</p>
+            </li>
+            <li>
+              <p>On <strong>Quick Start</strong> or the dashboard, click <strong>Set up Git publishing</strong>.</p>
+              <p>Follow the instructions to select a user name and password to use with Git, if you haven’t done that already. A Git repository will be created for you in Web Sites.</p>
+            </li>
+          </ol>
+        </div>
+        <h4 class="subHeading">Push my local files to <em>Web Sites</em></h4>
+        <div class="subSection">
+          <ol class="ordered">
+            <li>
+              <p>Install the Git client. (<a href="http://go.microsoft.com/fwlink/?LinkID=251797&amp;clcid=0x409" class="mtpslink" target="_blank">Download Git</a>) </p>
+            </li>
+            <li>
+              <p>Commit your local files.</p>
+              <p>Open a command prompt, change directories to your application's root directory, and type the following commands:</p>
+              <p>
+                <code>git init</code>
+              </p>
+              <p>
+                <code>git add .</code>
+              </p>
+              <p>
+                <code>git commit -m "initial commit"</code>
+              </p>
+              <p>This creates a local repository and commits your local app files to it.</p>
+            </li>
+            <li>
+              <p>Add a remote Git repository and push your files to it.</p>
+              <p>Open a command prompt, cd into your app's root directory, and type:</p>
+              <p>
+                <code>git remote add website "https://username@sitename.scm.websites.com/sitename.git"</code>
+              </p>
+              <p>
+                <code>git push website master</code>
+              </p>
+              <p>where <em>username</em> is your deployment user name and <em>sitename</em> is the name of your web site.</p>
+              <div class="alert">
+                <table>
+                  <tr>
+                    <th align="left">
+                      <img src="/HelpContent/GetImage/websiteextension/jj205507.Tip(en-us,MSDN.10).gif" class="mtpsimage" alt="Tip" xmlns="" />Tip </th>
+                  </tr>
+                  <tr>
+                    <td>
+									Forgot your password? To update your publishing credentials for Git and FTP, use <strong>Reset deployment credentials</strong> on the dashboard.<p><!----></p></td>
+                  </tr>
+                </table>
+                <p>
+                  <!---->
+                </p>
+              </div>
+            </li>
+          </ol>
+        </div>
+        <div class="alert">
+          <table>
+            <tr>
+              <th align="left">
+                <img src="/HelpContent/GetImage/websiteextension/jj205507.Important(en-us,MSDN.10).gif" class="mtpsimage" alt="Important" xmlns="" />Important </th>
+            </tr>
+            <tr>
+              <td>
+					If you enable source control publishing from Git, you should perform all updates using the source-control solution that you used to deploy your web site. When you enable source-control publishing, a <strong>Deployments</strong> page is added to the Management Portal. The new page displays deployment history from Git, but will not include deployments from package uploads or developer tools. If you update your web site using one of those other methods while GIT publishing is enabled, the new deployment replaces the active deployment from Git. However, on the <strong>Deployments</strong> page, the active deployment indicator will not accurately reflect what is actually deployed.<p><!----></p></td>
+            </tr>
+          </table>
+          <p>
+            <!---->
+          </p>
+        </div>
+      </div>
+      <p>
+        <!---->
+      </p>
+    </div>
+  </div>
+</div>

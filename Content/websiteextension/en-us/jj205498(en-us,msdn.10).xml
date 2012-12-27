@@ -1,0 +1,47 @@
+<div xmlns="http://www.w3.org/1999/xhtml">
+  <div class="topic" xmlns="http://www.w3.org/1999/xhtml" xmlns:mtps="http://msdn2.microsoft.com/mtps" xmlns:msxsl="urn:schemas-microsoft-com:xslt" xmlns:cs="http://msdn.microsoft.com/en-us/">
+    
+    <!--Published via DxPublisher.-->
+    <div id="mainSection">
+      <div id="mainBody">
+        <p>Diagnostics for a Web Site are enabled on the <strong>Configure</strong> management page for the Web Site. After configuring diagnostics for a Web Site the resulting log files can be downloaded from the FTP site listed under the <strong>Diagnostics Logs</strong> section of the <strong>Dashboard</strong> management page.</p>
+        <div id="sectionSection0" class="section">
+          <p>Connect to the FTP site listed under <strong>Diagnostics Logs</strong> to access the log files saved per logging options set on the <strong>Configure</strong> management page. Authenticate to the FTP site with your deployment user account credentials. This account is listed under <strong>Deployment User</strong> on the <strong>Dashboard</strong> management page. If the words <strong>Not set</strong> appear under <strong>Deployment User</strong> then you must create the deployment user account before you can authenticate to the FTP site where the diagnostic logs are stored.</p>
+          <div class="alert">
+            <table>
+              <tr>
+                <th align="left">
+                  <img src="/HelpContent/GetImage/websiteextension/jj205498.note(en-us,MSDN.10).gif" class="mtpsimage" alt="note" xmlns="" />Note </th>
+              </tr>
+              <tr>
+                <td>
+						When you connect to the FTP host for a Web Site on Web Sites to deploy content or access diagnostic logs, prepend the username with the name of the Web Site followed by a backslash. For example to authenticate the deployment user “testuser” to connect to the FTP host for the Web Site “testweb” you would specify the username as “testweb\testuser” (without the quotes).<p><!----></p></td>
+              </tr>
+            </table>
+            <p>
+              <!---->
+            </p>
+          </div>
+          <div class="alert">
+            <table>
+              <tr>
+                <th align="left">
+                  <img src="/HelpContent/GetImage/websiteextension/jj205498.Important(en-us,MSDN.10).gif" class="mtpsimage" alt="Important" xmlns="" />Important </th>
+              </tr>
+              <tr>
+                <td>
+						Consider using an FTP client such as <a href="http://go.microsoft.com/fwlink/?LinkId=247914" class="mtpslink" target="_blank">FileZilla</a> to download diagnostic logs. An FTP client should provide usability superior to a web browser for specifying credentials, viewing folders and downloading files from FTP sites.<p><!----></p></td>
+              </tr>
+            </table>
+            <p>
+              <!---->
+            </p>
+          </div>
+        </div>
+      </div>
+      <p>
+        <!---->
+      </p>
+    </div>
+  </div>
+</div>

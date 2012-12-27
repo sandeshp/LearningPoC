@@ -1,0 +1,36 @@
+<div xmlns="http://www.w3.org/1999/xhtml">
+  <div class="topic" xmlns="http://www.w3.org/1999/xhtml" xmlns:mtps="http://msdn2.microsoft.com/mtps" xmlns:msxsl="urn:schemas-microsoft-com:xslt" xmlns:cs="http://msdn.microsoft.com/en-us/">
+    
+    <!--Published via DxPublisher.-->
+    <div id="mainSection">
+      <div id="mainBody">
+        <p>Welcome to the Web Sites Dashboard tab.</p>
+        <h2 class="heading">Things to do from the Web Sites Dashboard tab</h2>
+        <div id="sectionSection0" class="section">
+          <p>A Web Site is the host for a web application running in the cloud that you can control and manage.</p>
+          <p>The Web Site’s <strong>Dashboard</strong> tab is the gateway to your Web Sites. From here you can select a web site from the list of Web Sites and quickly perform the following actions:</p>
+          <ul>
+            <li class="unordered">
+							Associate other resources with the Web Site by clicking the <strong>Link</strong> icon.<br /><br /></li>
+            <li class="unordered">
+							Connect to the Web Site by clicking the <strong>Browse</strong> command.<br /><br /></li>
+            <li class="unordered">
+							Start or stop a website by clicking the <strong>Stop</strong> or <strong>Start</strong> icon at the bottom of the page.<br /><br /></li>
+            <li class="unordered">
+							Delete the Web Site with the <strong>Delete</strong> icon.<br /><br /></li>
+            <li class="unordered">
+							Setup Git Publishing<br /><br /></li>
+            <li class="unordered">
+							Reset your Git or FTP publishing credentials<br /><br /></li>
+            <li class="unordered">
+							Download a publish profile that can be imported by several popular development tools such as WebMatrix, Visual Web Developer, and Visual Studio.<br /><br /></li>
+          </ul>
+          <p>Click the name of the Web Site displayed under the <strong>Name</strong> column to display the management pages for the Web Site.</p>
+        </div>
+      </div>
+      <p>
+        <!---->
+      </p>
+    </div>
+  </div>
+</div>

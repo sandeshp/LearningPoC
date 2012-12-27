@@ -1,0 +1,22 @@
+<div xmlns="http://www.w3.org/1999/xhtml">
+  <div class="topic" xmlns="http://www.w3.org/1999/xhtml" xmlns:mtps="http://msdn2.microsoft.com/mtps" xmlns:msxsl="urn:schemas-microsoft-com:xslt" xmlns:cs="http://msdn.microsoft.com/en-us/">
+    
+    <!--Published via DxPublisher.-->
+    <div id="mainSection">
+      <div id="mainBody">
+        <p>
+          <!---->
+        </p>
+        <div id="sectionSection0" class="section">
+          <p>Before you delete a Web Site it is recommended that you first stop the web site.</p>
+          <p>This prevents the web site from accepting new client requests while it finishes processing any existing connections to clients.</p>
+          <p>After stopping the web site, delete the Web Site by selecting it and clicking <strong>Delete</strong>.</p>
+          <p>When you delete a Web Site, its status is displayed in the <strong>Status</strong> column as <strong>Deleting</strong> until the web site is deleted.</p>
+        </div>
+      </div>
+      <p>
+        <!---->
+      </p>
+    </div>
+  </div>
+</div>

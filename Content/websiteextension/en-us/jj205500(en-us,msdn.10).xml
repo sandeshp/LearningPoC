@@ -1,0 +1,27 @@
+<div xmlns="http://www.w3.org/1999/xhtml">
+  <div class="topic" xmlns="http://www.w3.org/1999/xhtml" xmlns:mtps="http://msdn2.microsoft.com/mtps" xmlns:msxsl="urn:schemas-microsoft-com:xslt" xmlns:cs="http://msdn.microsoft.com/en-us/">
+    
+    <!--Published via DxPublisher.-->
+    <div id="mainSection">
+      <div id="mainBody">
+        <p>Microsoft WebMatrix supports both developing and deploying Web Sites. To facilitate deploying Web Sites from WebMatrix import the Web Site’s publish profile into WebMatrix. The publish profile is an XML file that contains credentials and URLs required to deploy content to the Web Site. To download the publish profile click <strong>Download publish profile</strong> on the Web Site’s <strong>Dashboard</strong> management page and save the file to your development computer. To import the publish profile into WebMatrix follow these steps:</p>
+        <ol class="ordered">
+          <li>
+						In WebMatrix open the Web Site that you want to publish.<br /><br /></li>
+          <li>
+						Click the dropdown menu accessible from the <strong>Publish</strong> toolbar button and click <strong>Settings</strong> to display the <strong>Publish Settings</strong> dialog box.<br /><br /></li>
+          <li>
+						From the Publish Settings dialog box click <strong>Import publish settings</strong> under <strong>Common Tasks</strong>.<br /><br /></li>
+          <li>
+						Navigate to the publish profile file, select it and click <strong>Open</strong>. The publish profile file is saved with the extension .PublishSettings.<br /><br /></li>
+          <li>
+						Click the <strong>Save</strong> button.<br /><br /></li>
+        </ol>
+        <p>You have now associated the WebMatrix Web Site with Web Sites. Whenever you publish the site in WebMatrix it will be deployed to the Web Site that you downloaded the Publish Profile from.</p>
+      </div>
+      <p>
+        <!---->
+      </p>
+    </div>
+  </div>
+</div>

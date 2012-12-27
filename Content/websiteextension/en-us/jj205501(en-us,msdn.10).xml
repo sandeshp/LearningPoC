@@ -1,0 +1,39 @@
+<div xmlns="http://www.w3.org/1999/xhtml">
+  <div class="topic" xmlns="http://www.w3.org/1999/xhtml" xmlns:mtps="http://msdn2.microsoft.com/mtps" xmlns:msxsl="urn:schemas-microsoft-com:xslt" xmlns:cs="http://msdn.microsoft.com/en-us/">
+    
+    <!--Published via DxPublisher.-->
+    <div id="mainSection">
+      <div id="mainBody">
+        <p>When you deploy content to the FTP host or GIT repository of a Web Site you must authenticate using <strong>deployment credentials</strong> that you create from the Web Site’s <strong>Quick Start</strong> or <strong>Dashboard</strong> management pages.</p>
+        <div class="alert">
+          <table>
+            <tr>
+              <th align="left">
+                <img src="/HelpContent/GetImage/websiteextension/jj205501.note(en-us,MSDN.10).gif" class="mtpsimage" alt="note" xmlns="" />Note </th>
+            </tr>
+            <tr>
+              <td>
+					When you connect to the FTP host for a Web Site to deploy content or access diagnostic logs, prepend the username with the name of the Web Site followed by a backslash. For example to authenticate the deployment user “testuser” to connect to the FTP host for the Web Site “testweb” you would specify the username as “testweb\testuser” (without the quotes).<p><!----></p></td>
+            </tr>
+          </table>
+          <p>
+            <!---->
+          </p>
+        </div>
+        <div id="sectionSection0" class="section">
+          <p>Follow these steps to set or change deployment credentials for a Web Site:</p>
+          <ol class="ordered">
+            <li>
+							Open the <strong>Deployment Credentials</strong> dialog box by clicking <strong>Set up FTP Credentials</strong> on the <strong>Quick Start</strong> management page or by clicking <strong>Reset deployment credentials</strong> on the <strong>Dashboard</strong> management page.<br /><br /></li>
+            <li>
+							Enter the requested values and click the checkmark.<br /><br /></li>
+          </ol>
+          <p>Deployment credentials are valid for use with all web sites associated with your subscription.</p>
+        </div>
+      </div>
+      <p>
+        <!---->
+      </p>
+    </div>
+  </div>
+</div>

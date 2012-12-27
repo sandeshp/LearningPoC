@@ -1,0 +1,27 @@
+<div xmlns="http://www.w3.org/1999/xhtml">
+  <div class="topic" xmlns="http://www.w3.org/1999/xhtml" xmlns:mtps="http://msdn2.microsoft.com/mtps" xmlns:msxsl="urn:schemas-microsoft-com:xslt" xmlns:cs="http://msdn.microsoft.com/en-us/">
+    
+    <!--Published via DxPublisher.-->
+    <div id="mainSection">
+      <div id="mainBody">
+        <p>Web site diagnostics is performed by setting tracing and logging options and then analyzing the resulting log files.</p>
+        <div id="sectionSection0" class="section">
+          <p>To perform diagnostics for a web site follow these steps:</p>
+          <ol class="ordered">
+            <li>
+              <strong>Set appropriate tracing and logging options</strong> – Enable or disable <strong>Detailed Error Logging</strong>, <strong>Failed Request Tracing</strong> and <strong>Web Server Logging</strong> under the <strong>Diagnostics</strong> section of the web site’s <strong>Dashboard</strong> management page.<br /><br /></li>
+            <li>
+              <strong>Reproduce the behavior that you would like to diagnose</strong> – Navigate to the web site and reproduce the problem or error that you wish to diagnose.<br /><br /></li>
+            <li>
+              <strong>Download log files for the web site</strong> – The diagnostic log files are saved to the FTP site specified under the <strong>Diagnostic Logs</strong> section of the web site’s <strong>Dashboard</strong> management page. When connecting to the FTP site where the log files are stored you must authenticate using credentials of the account listed under the <strong>Deployment User</strong> section of the web site’s <strong>Dashboard</strong> management page, taking care to specify the username with the nomenclature <em>&lt;sitename&gt;</em><strong>\username</strong>.<br /><br /></li>
+            <li>
+              <strong>Review the log files for diagnostic information</strong> – For information about reading log files for a web site see <a href="http://go.microsoft.com/fwlink/?LinkId=257451" class="mtpslink" target="_blank">Analyze your IIS Log Files - Favorite Log Parser Queries</a>.<br /><br /></li>
+          </ol>
+        </div>
+      </div>
+      <p>
+        <!---->
+      </p>
+    </div>
+  </div>
+</div>

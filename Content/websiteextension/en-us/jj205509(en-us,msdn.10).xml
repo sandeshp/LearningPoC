@@ -1,0 +1,23 @@
+<div xmlns="http://www.w3.org/1999/xhtml">
+  <div class="topic" xmlns="http://www.w3.org/1999/xhtml" xmlns:mtps="http://msdn2.microsoft.com/mtps" xmlns:msxsl="urn:schemas-microsoft-com:xslt" xmlns:cs="http://msdn.microsoft.com/en-us/">
+    
+    <!--Published via DxPublisher.-->
+    <div id="mainSection">
+      <div id="mainBody">
+        <p>All of the information required to publish a web application to a Web Site for each enabled publication method is stored in an XML file known as a <em>publish profile</em>. The publish profile contains the URLs, user credentials and database strings required to connect to and authenticate against each of the endpoints for which a publication method is enabled. Though a publish profile uses the XML file format it is saved with the extension “.PublishSettings”. A publish profile can be manually opened and examined using Notepad or Internet Explorer. Microsoft WebMatrix supports reading publish profiles to automate publishing web applications to web sites.</p>
+        <div id="sectionSection0" class="section">
+          <p>To download the publish profile for a Web site follow these steps: </p>
+          <ol class="ordered">
+            <li>
+							Under the <strong>quick glance</strong> section of the <strong>Dashboard</strong> management page click <strong>Download publish profile</strong>.<br /><br /></li>
+            <li>
+							When prompted, save the publish profile file to the local computer.<br /><br /></li>
+          </ol>
+        </div>
+      </div>
+      <p>
+        <!---->
+      </p>
+    </div>
+  </div>
+</div>
