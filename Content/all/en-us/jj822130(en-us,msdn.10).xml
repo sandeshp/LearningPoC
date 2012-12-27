@@ -4,6 +4,7 @@
     <!--Published via DxPublisher.-->
     <div id="mainSection">
       <div id="mainBody">
+        <p>Let me show you how we can enhance this content</p>
         <p>To create a SQL database, click <strong>New</strong>, click <strong>SQL Server</strong> and then click <strong>Create Database</strong> to display the <strong>Create Database</strong> dialog box.</p>
         <p>In the <strong>Create Database</strong> dialog select a <strong>Name</strong> for your database, choose your <strong>Subscription</strong>, and select a value for <strong>Edition</strong>. Click Next to proceed.  Next select the <strong>Admin Name</strong> for your database, enter a value for <strong>Password</strong>, enter the same value for <strong>Password Confirmation</strong> and then click the checkmark to finish creating the SQL database.</p>
         <div id="sectionSection0" class="section">
