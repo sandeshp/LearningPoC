@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<site xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" locale="en-us">
-  <set setContextId="help.default" title="0.0-Default[K]">
-    <relatedTopic topicContextId="0" title="Help topic is unavailable" id="jj838607(en-us,MSDN.10)" />
-  </set>
-</site>
